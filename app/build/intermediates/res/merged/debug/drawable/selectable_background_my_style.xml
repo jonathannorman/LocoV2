@@ -22,4 +22,4 @@
     <item android:state_pressed="false" android:state_focused="true" android:drawable="@drawable/list_focused_my_style" />
     <item android:state_pressed="true" android:drawable="@drawable/list_pressed_my_style" />
     <item android:drawable="@android:color/transparent" />
-</selector><!-- From: file:/Users/jono/StudioProjects/LocoLatestFromAime/app/src/main/res/drawable/selectable_background_my_style.xml -->
+</selector><!-- From: file:/C:/Users/Marre/StudioProjects/LocoV2/app/src/main/res/drawable/selectable_background_my_style.xml -->

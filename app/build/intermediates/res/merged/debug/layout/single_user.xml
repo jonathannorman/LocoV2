@@ -26,4 +26,4 @@
         android:contentDescription="@string/image_description"
         android:src="@drawable/btn_red_cross" />
 
-</RelativeLayout><!-- From: file:/Users/jono/StudioProjects/LocoLatestFromAime/app/src/main/res/layout/single_user.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Marre/StudioProjects/LocoV2/app/src/main/res/layout/single_user.xml -->
