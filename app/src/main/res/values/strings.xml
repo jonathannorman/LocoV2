@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Loco</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_drink_list">My drink list</string>
+    <string name="action_logout">Log out</string>
+
+    <!-- Login -->
+
+    <string name="login_title">Login</string>
+    <string name="welcome_msg">Welcome</string>
+    <string name="app_id">1561586484124135</string>
+    <string name="google_app_id">AIzaSyCsT1eUsefXC0f5QtLhFllV79zcSByctYQ</string>
+
+    <!-- Beer -->
+
+    <string name="image_description">image description</string>
+    <string name="place_holder">5.0%</string>
+
+    <!-- star -->
+
+    <string name="home">Home</string>
+    <string name="party">Party</string>
+    <string name="img_descr">Add buddys !!</string>
+
+</resources>
