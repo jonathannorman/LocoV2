@@ -113,7 +113,7 @@ public class UpdateUserLocationService extends Service {
 			// LOAD SERVER PREF
 
 			try {
-				sendString = "http://posdima.com/loco/updateLocation.php?id="
+				sendString = "http://afuriqa.com/loco/updateLocation.php?id="
 						+ URLEncoder.encode(user_id, "UTF-8") + "&latitude="
 						+ URLEncoder.encode(latitude, "UTF-8") + "&longitude="
 						+ URLEncoder.encode(longitude, "UTF-8")
