@@ -54,7 +54,6 @@ public class MainActivity extends FragmentActivity {
 
 	private TextView userName;
 
-	String test;
 	private UiLifecycleHelper uiHelper;
 
 	private static final List<String> PERMISSIONS = Arrays

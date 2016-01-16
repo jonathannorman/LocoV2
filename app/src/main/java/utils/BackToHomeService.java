@@ -141,7 +141,7 @@ public class BackToHomeService extends IntentService {
 			// LOAD SERVER PREF
 
 			try {
-				sendString = "http://posdima.com/loco/updateBackToHome.php?id="
+				sendString = "http://afuriqa.com/loco/updateBackToHome.php?id="
 						+ URLEncoder.encode(user_id, "UTF-8") + "&from="
 						+ URLEncoder.encode(from, "UTF-8") + "&to="
 						+ URLEncoder.encode(to, "UTF-8")

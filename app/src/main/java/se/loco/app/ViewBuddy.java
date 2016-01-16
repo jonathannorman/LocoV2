@@ -54,6 +54,7 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.MapsInitializer;
 
 public class ViewBuddy extends Activity {
 
@@ -104,17 +105,22 @@ public class ViewBuddy extends Activity {
 
 	private void initilizeMap() {
 		// TODO Auto-generated method stub
-
 		map = ((MapFragment) getFragmentManager().findFragmentById(
 				R.id.fragment_map)).getMap();
 
-		LatLng MyCurrentLocation = new LatLng(latitude, longitude);
+		if(map != null) {
+			MapsInitializer.initialize(this);
 
-		map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
+			LatLng MyCurrentLocation = new LatLng(latitude, longitude);
 
-		marker = map.addMarker(new MarkerOptions()
-				.position(new LatLng(latitude, longitude)).draggable(true)
-				.visible(true));
+			map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
+
+			marker = map.addMarker(new MarkerOptions()
+					.position(new LatLng(latitude, longitude)).draggable(true)
+					.visible(true));
+
+		}
+
 
 		// map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude,
 		// longitude), 8));
@@ -397,9 +403,6 @@ public class ViewBuddy extends Activity {
 				// .getLayoutParams();
 				// listViewParams.height = 400;
 				// listOfDrinks.requestLayout();
-
-				Log.i("*****************************************************",
-						jsonString);
 
 				progressDrinkList.setVisibility(View.INVISIBLE);
 
