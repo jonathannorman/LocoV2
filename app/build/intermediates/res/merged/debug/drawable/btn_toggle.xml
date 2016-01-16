@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/toggle_on" android:state_checked="true"/>
     <item android:drawable="@drawable/toggle_off" android:state_checked="false"/>
 
-</selector><!-- From: file:/Users/jono/StudioProjects/LocoLatestFromAime/app/src/main/res/drawable/btn_toggle.xml -->
+</selector><!-- From: file:/D:/AndroidStudio/LOCO/app/src/main/res/drawable/btn_toggle.xml -->

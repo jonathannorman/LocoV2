@@ -36,6 +36,7 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -51,14 +52,16 @@ import com.facebook.Session;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class ViewBuddy extends Activity {
+public class ViewBuddy extends FragmentActivity {
 
 	Marker marker;
-	private GoogleMap map;
+	//private GoogleMap map;
 	double latitude, longitude;
 	TextView names, bac, address;
 	TextView txtNoBeveragesAdded;
@@ -75,12 +78,13 @@ public class ViewBuddy extends Activity {
 		init();
 
 		Bundle extras = getIntent().getExtras();
-
 		if (extras != null) {
 			names.setText(extras.getString(Globals.names));
 			bac.setText(extras.getString(Globals.bac));
-			latitude = Double.valueOf(extras.getString(Globals.latitude));
-			longitude = Double.valueOf(extras.getString(Globals.longitude));
+			//latitude = Double.valueOf(extras.getString(Globals.latitude));
+			//longitude = Double.valueOf(extras.getString(Globals.longitude));
+			latitude = 37.6329946;
+			longitude = -122.4938344;
 			friendId = extras.getString(Globals.friendID);
 
 		}
@@ -104,22 +108,41 @@ public class ViewBuddy extends Activity {
 
 	private void initilizeMap() {
 		// TODO Auto-generated method stub
+		MapsInitializer.initialize(this);
 
-		map = ((MapFragment) getFragmentManager().findFragmentById(
-				R.id.fragment_map)).getMap();
+		final GoogleMap map = ((MapFragment)getFragmentManager().findFragmentById(R.id.fragment_map)).getMap();
 
-		LatLng MyCurrentLocation = new LatLng(latitude, longitude);
+		LatLng MyCurrentLocation = new LatLng(37.6329946, -122.4938344);
 
 		map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
 
 		marker = map.addMarker(new MarkerOptions()
-				.position(new LatLng(latitude, longitude)).draggable(true)
+				.position(MyCurrentLocation).draggable(true)
 				.visible(true));
+
+
+	}
+
+	//private void initilizeMapAime() {
+		// TODO Auto-generated method stub
+
+		//map = ((MapFragment) getFragmentManager().findFragmentById(
+				//R.id.fragment_map)).getMap();
+
+		//LatLng MyCurrentLocation = new LatLng(37.6329946, -122.4938344);
+
+		//map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
+
+		//marker = map.addMarker(new MarkerOptions()
+				//.position(new LatLng(latitude, longitude)).draggable(true)
+				//.visible(true));
 
 		// map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude,
 		// longitude), 8));
 
-	}
+	//}
+
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -398,8 +421,6 @@ public class ViewBuddy extends Activity {
 				// listViewParams.height = 400;
 				// listOfDrinks.requestLayout();
 
-				Log.i("*****************************************************",
-						jsonString);
 
 				progressDrinkList.setVisibility(View.INVISIBLE);
 
