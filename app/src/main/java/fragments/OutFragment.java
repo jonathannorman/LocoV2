@@ -227,9 +227,7 @@ public class OutFragment extends ListFragment {
 				sendString = "http://afuriqa.com/loco/outPersonList.php?id="
 						+ URLEncoder.encode(userId, "UTF-8") + "&from_date="
 						+ URLEncoder.encode(from, "UTF-8")
-
 						+ "&to_date=" + URLEncoder.encode(to, "UTF-8")
-
 						+ "&current_date="
 						+ URLEncoder.encode(todayString, "UTF-8");
 			} catch (UnsupportedEncodingException e1) {
@@ -341,7 +339,6 @@ public class OutFragment extends ListFragment {
 	}
 
 	public static void setListViewHeightBasedOnChildren(ListView listView) {
-		// 获取ListView对应的Adapter
 		ListAdapter listAdapter = listView.getAdapter();
 		if (listAdapter == null) {
 			return;
@@ -357,8 +354,6 @@ public class OutFragment extends ListFragment {
 		ViewGroup.LayoutParams params = listView.getLayoutParams();
 		params.height = totalHeight
 				+ (listView.getDividerHeight() * (listAdapter.getCount() - 1));
-		// listView.getDividerHeight()获取子项间分隔符占用的高度
-		// params.height最后得到整个ListView完整显示需要的高度
 		listView.setLayoutParams(params);
 	}
 

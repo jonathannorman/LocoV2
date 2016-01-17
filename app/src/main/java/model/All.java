@@ -6,7 +6,6 @@ public class All {
 	private String names;
 
 	public All() {
-
 	}
 
 	public All(String id, String names) {

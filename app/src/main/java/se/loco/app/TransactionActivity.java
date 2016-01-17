@@ -37,14 +37,6 @@ public class TransactionActivity extends Activity {
 		bar.hide();
 
 		prefs = PreferenceManager.getDefaultSharedPreferences(this);
-		// backToHomeAlarm = new BackToHomeAlarmManagerBroadcastReceiver();
-		//
-		// if (backToHomeAlarm != null) {
-		//
-		// backToHomeAlarm.SetAlarm(getApplicationContext());
-		//
-		// }
-
 		if (isLoggedIn()) {
 			Intent intent = new Intent(getApplicationContext(),
 					TabsActivity.class);
@@ -67,7 +59,6 @@ public class TransactionActivity extends Activity {
 	}
 
 	public void printHashKey() {
-
 		try {
 			PackageInfo info = getPackageManager().getPackageInfo(
 					"se.loco.app", PackageManager.GET_SIGNATURES);
