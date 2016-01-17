@@ -10,69 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fe0a9cf-2aa9-4c33-b155-fdcfb3766bcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/utils/BacCalulation.java" />
-      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\classes\androidTest\debug\se\loco\app\test\BuildConfig.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/All.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/All.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$UserVerificationAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity$UserVerificationAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MyDrinkListActivity$MyDrinkListAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MyDrinkListActivity$MyDrinkListAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MyDrinkListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/MyDrinkListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fragments/OutFragment$OutListAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fragments/OutFragment$OutListAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fragments/OutFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fragments/OutFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/OutPerson.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/OutPerson.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/TransactionActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/se/loco/app/TransactionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-4d5f9797ffc0248b9329068a1d7d652048c2d736.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-4d5f9797ffc0248b9329068a1d7d652048c2d736.jar" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\dex\debug\classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-4d5f9797ffc0248b9329068a1d7d652048c2d736.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-0175632aad2c56fbddca0440daa019709355d297.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-15e379cc0acce5ff01add35670e4d38223f78d65.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-1c793cc12b315cf1ffa10dbd99c3189b19a015bb.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-1e29755893ebf6c5bdd5a96cc6593ed7d01e3c75.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-1e64364a72a708a90d04e6a694f5f5b81a2a6246.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-22304d941974c1256d3f865d11fd577dbc3f6525.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-2245180919200f3a03e3d310e4117b6d2881104e.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-2f7385a8002195c0cc6528eeadea5eca661e7caa.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-353a9c4bb23f88c6fea558f097877f13f66fda41.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-398e22b57fccd3c3cc410cf0eb0599a8b8110249.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-39cb4cac17677030521924c950a2b9420be9c5d3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-41722c92c6ee0563cb4ad25e96c9966241afad2b.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-5eda8cfa254eb1182f7e4bc3e89afcf7272c6ce1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-610bc9ce407e2bd3e5867b365fe7180785ee8db0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-820706333fb1af9123bb9854b20bae00ed5caeb8.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-84f1ef4053ebb02542e5852f3623b145dcf2b000.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-88eee4bf9739bc57a00779b48222e262905dd1a2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-9b0a49e9e8de9ff4efb443fcb80c25a36d254cee.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-a81fb9468c24b7c429daf94803db1d02eaa7368a.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-ad0510b18d18cdf64c800f542f610ebaf01c2946.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-ae4672041be7427b3b8eafa99bc471bf955473cd.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-c626653f1b71fe7c4fb7168f7f0f5189e199dc02.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-cf63cd610ff61b4d370c592aaeac5296acc7160a.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-d781779933c3d9ddbaab419b84a7d775844476bb.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-f0c9c5f741c66ba9b266113b77bd5502849308aa.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\classes-f80b0dac6a180ac65645c3111ef020ff754e0b3e.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-05e429385320d7c10707ec062c1e004fba19a1a0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-ab01886d41a1205f3411650acd617d1415d444dd.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-1a2e80e2ce1ad39af8d37324803fb986de81e236.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\outputs\apk\app-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marre\StudioProjects\LocoV2\app\build\outputs\apk\app-debug.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-0175632aad2c56fbddca0440daa019709355d297.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-0175632aad2c56fbddca0440daa019709355d297.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-15e379cc0acce5ff01add35670e4d38223f78d65.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-15e379cc0acce5ff01add35670e4d38223f78d65.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1c793cc12b315cf1ffa10dbd99c3189b19a015bb.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1c793cc12b315cf1ffa10dbd99c3189b19a015bb.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1e29755893ebf6c5bdd5a96cc6593ed7d01e3c75.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1e29755893ebf6c5bdd5a96cc6593ed7d01e3c75.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1e64364a72a708a90d04e6a694f5f5b81a2a6246.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1e64364a72a708a90d04e6a694f5f5b81a2a6246.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-22304d941974c1256d3f865d11fd577dbc3f6525.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-22304d941974c1256d3f865d11fd577dbc3f6525.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-2245180919200f3a03e3d310e4117b6d2881104e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-2245180919200f3a03e3d310e4117b6d2881104e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-2f7385a8002195c0cc6528eeadea5eca661e7caa.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-2f7385a8002195c0cc6528eeadea5eca661e7caa.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-353a9c4bb23f88c6fea558f097877f13f66fda41.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-353a9c4bb23f88c6fea558f097877f13f66fda41.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-398e22b57fccd3c3cc410cf0eb0599a8b8110249.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-398e22b57fccd3c3cc410cf0eb0599a8b8110249.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-39cb4cac17677030521924c950a2b9420be9c5d3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-39cb4cac17677030521924c950a2b9420be9c5d3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-41722c92c6ee0563cb4ad25e96c9966241afad2b.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-41722c92c6ee0563cb4ad25e96c9966241afad2b.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-5eda8cfa254eb1182f7e4bc3e89afcf7272c6ce1.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-5eda8cfa254eb1182f7e4bc3e89afcf7272c6ce1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-610bc9ce407e2bd3e5867b365fe7180785ee8db0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-610bc9ce407e2bd3e5867b365fe7180785ee8db0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-820706333fb1af9123bb9854b20bae00ed5caeb8.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-820706333fb1af9123bb9854b20bae00ed5caeb8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-84f1ef4053ebb02542e5852f3623b145dcf2b000.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-84f1ef4053ebb02542e5852f3623b145dcf2b000.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-88eee4bf9739bc57a00779b48222e262905dd1a2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-88eee4bf9739bc57a00779b48222e262905dd1a2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-9b0a49e9e8de9ff4efb443fcb80c25a36d254cee.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-9b0a49e9e8de9ff4efb443fcb80c25a36d254cee.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-a81fb9468c24b7c429daf94803db1d02eaa7368a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-a81fb9468c24b7c429daf94803db1d02eaa7368a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-ad0510b18d18cdf64c800f542f610ebaf01c2946.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-ad0510b18d18cdf64c800f542f610ebaf01c2946.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-ae4672041be7427b3b8eafa99bc471bf955473cd.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-ae4672041be7427b3b8eafa99bc471bf955473cd.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-c626653f1b71fe7c4fb7168f7f0f5189e199dc02.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-c626653f1b71fe7c4fb7168f7f0f5189e199dc02.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-cf63cd610ff61b4d370c592aaeac5296acc7160a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-cf63cd610ff61b4d370c592aaeac5296acc7160a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-d781779933c3d9ddbaab419b84a7d775844476bb.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-d781779933c3d9ddbaab419b84a7d775844476bb.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-f0c9c5f741c66ba9b266113b77bd5502849308aa.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-f0c9c5f741c66ba9b266113b77bd5502849308aa.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-f80b0dac6a180ac65645c3111ef020ff754e0b3e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-f80b0dac6a180ac65645c3111ef020ff754e0b3e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-05e429385320d7c10707ec062c1e004fba19a1a0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-05e429385320d7c10707ec062c1e004fba19a1a0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ab01886d41a1205f3411650acd617d1415d444dd.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ab01886d41a1205f3411650acd617d1415d444dd.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-1a2e80e2ce1ad39af8d37324803fb986de81e236.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-1a2e80e2ce1ad39af8d37324803fb986de81e236.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/model/All.java" afterPath="$PROJECT_DIR$/app/src/main/java/model/All.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/loco/app/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/loco/app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/loco/app/MyDrinkListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/loco/app/MyDrinkListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fragments/OutFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fragments/OutFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/model/OutPerson.java" afterPath="$PROJECT_DIR$/app/src/main/java/model/OutPerson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/loco/app/TransactionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/loco/app/TransactionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="locov2.iws" />
@@ -143,11 +120,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44103774">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5468354">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -2344,28 +2331,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intermediates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dex-cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2389,156 +2354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locov2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocoV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2890,16 +2705,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/loco/app/ViewBuddy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar!/com/google/android/gms/maps/CameraUpdateFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3298,8 +3103,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44103774">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5468354">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding />
         </state>
       </provider>
