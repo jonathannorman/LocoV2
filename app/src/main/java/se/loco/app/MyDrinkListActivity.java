@@ -292,7 +292,7 @@ public class MyDrinkListActivity extends Activity {
 						drinkList);
 
 				if (adapter.getCount() != 0) {
-					tvBac.setText("Bac: " + drinkList.get(0).getBac() + " PR ");
+					tvBac.setText("Promille: " + drinkList.get(0).getBac() + " ‰ ");
 					listOfDrinks.setAdapter(adapter);
 					setListViewHeightBasedOnChildren(listOfDrinks);
 

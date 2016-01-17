@@ -63,7 +63,7 @@ public class DrinkListAdapter extends ArrayAdapter<OutPersonDrink> {
 
 		String input = objectItem.getTime();
 		DateFormat inputFormat = new SimpleDateFormat(Globals.dateTimeFormat);
-		DateFormat outputFormat = new SimpleDateFormat("KK:mm a");
+		DateFormat outputFormat = new SimpleDateFormat("HH:mm:ss");
 		try {
 			dateTime = outputFormat.format(inputFormat.parse(input));
 			// fill data

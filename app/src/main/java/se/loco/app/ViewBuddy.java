@@ -85,7 +85,6 @@ public class ViewBuddy extends FragmentActivity {
 			latitude = Double.valueOf(extras.getString(Globals.latitude));
 			longitude = Double.valueOf(extras.getString(Globals.longitude));
 			friendId = extras.getString(Globals.friendID);
-
 		}
 
 		initilizeMap();
