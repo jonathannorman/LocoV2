@@ -2,6 +2,62 @@
 <items version="2" >
 
     <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-ec79bd5336009ad2177e21bd2d8688301273abde.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\classes-90891fe990ce4c4b9f9b3cc01b2b088a2c2e9dc5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\classes-2d973c7ec8644950fe0b66cb48395c0770d4a366.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.23.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\classes-cf982ea5daab04c3e6668781521a64c623748e5c.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-38779fbc5e94d13e48ca11331619296fd1f32bc1.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\classes-f7f16cd164184cba2044508c803deb42aa7220b3.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\classes-ff33f0ccdeae5ea9b09794eebde7cfbc472e76b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonathan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\AndroidStudio\LOCO\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-61cc7c6141dc2f8322a3c9bc4e5205a500e6f233.jar" />
+    </item>
+    <item
         jar="D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"

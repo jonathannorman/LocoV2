@@ -57,11 +57,12 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.MapsInitializer;
 
 public class ViewBuddy extends FragmentActivity {
 
 	Marker marker;
-	//private GoogleMap map;
+	private GoogleMap map;
 	double latitude, longitude;
 	TextView names, bac, address;
 	TextView txtNoBeveragesAdded;
@@ -81,10 +82,8 @@ public class ViewBuddy extends FragmentActivity {
 		if (extras != null) {
 			names.setText(extras.getString(Globals.names));
 			bac.setText(extras.getString(Globals.bac));
-			//latitude = Double.valueOf(extras.getString(Globals.latitude));
-			//longitude = Double.valueOf(extras.getString(Globals.longitude));
-			latitude = 37.6329946;
-			longitude = -122.4938344;
+			latitude = Double.valueOf(extras.getString(Globals.latitude));
+			longitude = Double.valueOf(extras.getString(Globals.longitude));
 			friendId = extras.getString(Globals.friendID);
 
 		}
@@ -108,39 +107,23 @@ public class ViewBuddy extends FragmentActivity {
 
 	private void initilizeMap() {
 		// TODO Auto-generated method stub
-		MapsInitializer.initialize(this);
 
-		final GoogleMap map = ((MapFragment)getFragmentManager().findFragmentById(R.id.fragment_map)).getMap();
+		map = ((MapFragment) getFragmentManager().findFragmentById(
+				R.id.fragment_map)).getMap();
 
-		LatLng MyCurrentLocation = new LatLng(37.6329946, -122.4938344);
+		if(map != null) {
+			//MapsInitializer.initialize(this);
 
-		map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
+			LatLng MyCurrentLocation = new LatLng(latitude, longitude);
 
-		marker = map.addMarker(new MarkerOptions()
-				.position(MyCurrentLocation).draggable(true)
-				.visible(true));
+			map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
 
+			marker = map.addMarker(new MarkerOptions()
+					.position(new LatLng(latitude, longitude)).draggable(true)
+					.visible(true));
 
+		}
 	}
-
-	//private void initilizeMapAime() {
-		// TODO Auto-generated method stub
-
-		//map = ((MapFragment) getFragmentManager().findFragmentById(
-				//R.id.fragment_map)).getMap();
-
-		//LatLng MyCurrentLocation = new LatLng(37.6329946, -122.4938344);
-
-		//map.moveCamera(CameraUpdateFactory.newLatLngZoom(MyCurrentLocation, 18));
-
-		//marker = map.addMarker(new MarkerOptions()
-				//.position(new LatLng(latitude, longitude)).draggable(true)
-				//.visible(true));
-
-		// map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude,
-		// longitude), 8));
-
-	//}
 
 
 
@@ -244,11 +227,11 @@ public class ViewBuddy extends FragmentActivity {
 							+ address.get(0).getCountryName();
 
 				} else {
-					locationName = " no Location name found...";
+					locationName = " Adress hittades inte";
 
 				}
 			} catch (Exception e) {
-				locationName = " no Location name found...";
+				locationName = " Exception adress hittades inte";
 				e.printStackTrace(); // getFromLocation() may sometimes fail
 			}
 
@@ -420,7 +403,6 @@ public class ViewBuddy extends FragmentActivity {
 				// .getLayoutParams();
 				// listViewParams.height = 400;
 				// listOfDrinks.requestLayout();
-
 
 				progressDrinkList.setVisibility(View.INVISIBLE);
 

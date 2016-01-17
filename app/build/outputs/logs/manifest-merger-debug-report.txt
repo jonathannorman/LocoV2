@@ -110,9 +110,9 @@ MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\AndroidStud
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:38:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:40:9-42:53
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:40:9-42:71
 	android:value
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:42:13-50
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:42:13-68
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:41:13-58
 activity#se.loco.app.TransactionActivity
