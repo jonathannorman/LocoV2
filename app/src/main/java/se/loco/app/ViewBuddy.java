@@ -83,7 +83,6 @@ public class ViewBuddy extends Activity {
 			latitude = Double.valueOf(extras.getString(Globals.latitude));
 			longitude = Double.valueOf(extras.getString(Globals.longitude));
 			friendId = extras.getString(Globals.friendID);
-
 		}
 
 		initilizeMap();
