@@ -33,7 +33,7 @@
         android:theme="@style/Theme.My_style" >
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/app_id" />
+            android:value="@string/fb_app_id"/>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -68,15 +68,6 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light"/>
 
-        <activity android:name="com.facebook.FacebookActivity"
-            android:configChanges=
-                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" />
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/app_id" />
-
         <activity
             android:name="se.loco.app.Settings"
             android:screenOrientation="portrait" />
@@ -88,7 +79,6 @@
             android:name="se.loco.app.MyDrinkListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light"/>
-
         <service
             android:name="utils.UpdateUserLocationService"
             android:exported="false" >

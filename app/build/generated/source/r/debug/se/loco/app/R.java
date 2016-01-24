@@ -2220,15 +2220,16 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f06002c;
         public static final int common_signin_button_text=0x7f060051;
         public static final int common_signin_button_text_long=0x7f060052;
-        public static final int google_app_id=0x7f060053;
-        public static final int hello_world=0x7f060054;
-        public static final int home=0x7f060055;
-        public static final int image_description=0x7f060056;
-        public static final int img_descr=0x7f060057;
-        public static final int login_title=0x7f060058;
-        public static final int party=0x7f060059;
-        public static final int place_holder=0x7f06005a;
-        public static final int welcome_msg=0x7f06005b;
+        public static final int fb_app_id=0x7f060053;
+        public static final int google_app_id=0x7f060054;
+        public static final int hello_world=0x7f060055;
+        public static final int home=0x7f060056;
+        public static final int image_description=0x7f060057;
+        public static final int img_descr=0x7f060058;
+        public static final int login_title=0x7f060059;
+        public static final int party=0x7f06005a;
+        public static final int place_holder=0x7f06005b;
+        public static final int welcome_msg=0x7f06005c;
     }
     public static final class style {
         public static final int ActionBar_Solid_My_style=0x7f0a0016;
