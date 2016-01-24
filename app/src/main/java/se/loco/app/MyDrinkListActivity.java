@@ -148,9 +148,7 @@ public class MyDrinkListActivity extends Activity {
 			i.setClass(context, MainActivity.class);
 			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			context.startActivity(i);
-
 		}
-
 	}
 
 	public class MyDrinkListAsyncTask extends AsyncTask<String, Void, String> {
@@ -174,7 +172,6 @@ public class MyDrinkListActivity extends Activity {
 
 			String result = "FAILED";
 			String id = params[0];
-			// date
 
 			// date
 			DateFormat dateFormat = new SimpleDateFormat(Globals.dateTimeFormat);
