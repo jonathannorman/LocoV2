@@ -26,4 +26,4 @@
         android:drawable="@drawable/spinner_ab_focused_my_style" />
     <item android:drawable="@drawable/spinner_ab_default_my_style" />
 </selector>
-<!-- From: file:/D:/AndroidStudio/LOCO/app/src/main/res/drawable/spinner_background_ab_my_style.xml -->
+<!-- From: file:/C:/Users/Marre/StudioProjects/LocoV2/app/src/main/res/drawable/spinner_background_ab_my_style.xml -->

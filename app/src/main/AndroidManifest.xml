@@ -67,6 +67,19 @@
             android:name="se.loco.app.ViewBuddy"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light"/>
+<<<<<<< HEAD
+=======
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+>>>>>>> 45bb4b5fd18cbaaefe7d82c3f962df9b6bcd260f
         <activity
             android:name="se.loco.app.Settings"
             android:screenOrientation="portrait" />

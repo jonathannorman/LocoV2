@@ -7,4 +7,4 @@
     <item android:state_focused="true" android:color="@android:color/white" />
     <item android:state_pressed="true" android:color="@android:color/white" />
     <item android:color="#f8f8f8" />
-</selector><!-- From: file:/D:/AndroidStudio/LOCO/app/src/main/res/drawable/tab_text_selector.xml -->
+</selector><!-- From: file:/C:/Users/Marre/StudioProjects/LocoV2/app/src/main/res/drawable/tab_text_selector.xml -->

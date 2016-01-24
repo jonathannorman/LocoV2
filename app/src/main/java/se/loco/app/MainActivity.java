@@ -88,14 +88,8 @@ public class MainActivity extends FragmentActivity {
 		public void call(Session session, SessionState state,
 				Exception exception) {
 			if (state.isOpened()) {
-
-				// Intent i = new Intent(getApplicationContext(),
-				// TabsActivity.class);
-				// startActivity(i);
-
 				Log.d("FacebookSampleActivity", "Facebook session opened");
 			} else if (state.isClosed()) {
-
 				Log.d("FacebookSampleActivity", "Facebook session closed");
 			}
 		}
@@ -120,8 +114,12 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+<<<<<<< HEAD
 
 		printHashKey();
+=======
+		
+>>>>>>> 45bb4b5fd18cbaaefe7d82c3f962df9b6bcd260f
 		prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		edit = prefs.edit();
 		edit.putString(Globals.onStart, Globals.onStartNo);
@@ -138,17 +136,13 @@ public class MainActivity extends FragmentActivity {
 			startActivity(intent);
 
 		} else {
-
 			Log.e("error ", "*****be******passed*****");
-
 			uiHelper = new UiLifecycleHelper(this, statusCallback);
 			uiHelper.onCreate(savedInstanceState);
 
 			setContentView(R.layout.activity_main);
 			ActionBar bar = getActionBar();
-			// pd = new ProgressDialog(getApplicationContext());
 			bar.hide();
-
 			userName = (TextView) findViewById(R.id.user_name);
 			loginBtn = (LoginButton) findViewById(R.id.fb_login_button);
 			loginBtn.setReadPermissions("user_friends");
@@ -160,58 +154,23 @@ public class MainActivity extends FragmentActivity {
 						name = user.getName();
 						id = user.getId();
 						edit.putString(Globals.userId, id);
-						// edit.putString(Globals.gender, Globals.male);
-						// String weigh = prefs.getString(Globals.weight, null);
-						// String gender = prefs.getString(Globals.gender,
-						// null);
-						// if (weigh != null && !weigh.isEmpty()) {
-						// edit.putString(Globals.weight, weigh);
-						// } else {
-						// edit.putString(Globals.weight, "1");
-						// }
-						//
-						// if (gender != null && !gender.isEmpty()) {
-						// edit.putString(Globals.gender, gender);
-						// } else {
-						// edit.putString(Globals.gender, Globals.male);
-						// }
-
 						edit.commit();
 
 						backToHomeAlarm = new BackToHomeAlarmManagerBroadcastReceiver();
 
 						if (backToHomeAlarm != null) {
-
 							backToHomeAlarm.SetAlarm(getApplicationContext());
-
 						}
-
-						// Toast.makeText(
-						// getApplicationContext(),
-						// "name: " + user.getName() + " ,Id :" + user.getId(),
-						// Toast.LENGTH_LONG).show();
-						// run async task here
-
 						new UserVerificationAsyncTask().execute(id, name);
-
-						// Intent i = new Intent(getApplicationContext(),
-						// TabsActivity.class);
-						// startActivity(i);
-
-					} else {
-						// userName.setText("You are not logged");
 					}
 				}
 			});
 		}
-
 	}
-
 	@Override
 	public void onResume() {
 		super.onResume();
 		uiHelper.onResume();
-
 	}
 
 	@Override
@@ -229,10 +188,7 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		// Session.getActiveSession().onActivityResult(this, requestCode,
-		// resultCode, data);
 		uiHelper.onActivityResult(requestCode, resultCode, data);
-
 	}
 
 	@Override
@@ -245,14 +201,9 @@ public class MainActivity extends FragmentActivity {
 			AsyncTask<String, Void, String> {
 
 		String sendString;
-
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-
-			// pd.setCancelable(false);
-			// pd.setIndeterminate(true);
-			// pd.show();
 		}
 
 		@Override
@@ -273,7 +224,6 @@ public class MainActivity extends FragmentActivity {
 			String date = sdf.format(c.getTime());
 
 			// LOAD SERVER PREF
-
 			try {
 				sendString = "http://afuriqa.com/loco/checkUsers.php?id="
 						+ URLEncoder.encode(id, "UTF-8") + "&name="
@@ -314,19 +264,11 @@ public class MainActivity extends FragmentActivity {
 			}
 
 			return result;
-
-			//
-
 		}
 
 		@Override
 		protected void onPostExecute(String jsonString) {
 			super.onPostExecute(jsonString);
-			// REMOVE DIALOG
-			// if (pd != null) {
-			// pd.dismiss();
-			// // b.setEnabled(true);
-			// }
 			try {
 				ResultParser resultParser = new ResultParser();
 				Result result = resultParser.getParsedResults(jsonString);
@@ -348,17 +290,12 @@ public class MainActivity extends FragmentActivity {
 							"result: " + result.getError() + " ,Message :"
 									+ result.getMessage(), Toast.LENGTH_LONG)
 							.show();
-
 				} else {
-
 				}
 			} catch (Exception e) {
-
 			}
-
 		}
 	}
-
 	@Override
 	public void onBackPressed() {
 		Intent intent = new Intent(Intent.ACTION_MAIN);
@@ -366,5 +303,4 @@ public class MainActivity extends FragmentActivity {
 		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(intent);
 	}
-
 }

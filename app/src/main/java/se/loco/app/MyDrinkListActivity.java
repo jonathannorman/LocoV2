@@ -24,6 +24,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.conn.ConnectTimeoutException;
 
+import utils.BacCalulation;
 import utils.ConnectUtils;
 import utils.Globals;
 import utils.OutPersonDrinkParser;
@@ -63,6 +64,8 @@ public class MyDrinkListActivity extends Activity {
 		setContentView(R.layout.my_drink_list_activity);
 
 		init();
+
+
 
 		// new OutListDrinkAsyncTask().execute(friendId);
 
@@ -145,9 +148,7 @@ public class MyDrinkListActivity extends Activity {
 			i.setClass(context, MainActivity.class);
 			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			context.startActivity(i);
-
 		}
-
 	}
 
 	public class MyDrinkListAsyncTask extends AsyncTask<String, Void, String> {
@@ -171,7 +172,6 @@ public class MyDrinkListActivity extends Activity {
 
 			String result = "FAILED";
 			String id = params[0];
-			// date
 
 			// date
 			DateFormat dateFormat = new SimpleDateFormat(Globals.dateTimeFormat);
@@ -268,6 +268,8 @@ public class MyDrinkListActivity extends Activity {
 		protected void onPostExecute(String jsonString) {
 			super.onPostExecute(jsonString);
 
+
+
 			// Log.i("**********************************************",
 			// jsonString);
 			// jsonString=jsonString.trim();
@@ -278,6 +280,7 @@ public class MyDrinkListActivity extends Activity {
 
 				OutPersonDrinkParser outDrinkParser = new OutPersonDrinkParser();
 				drinkList = outDrinkParser.getOutPersonDrinkList(jsonString);
+				BacCalulation bacCalulation = new BacCalulation(jsonString);
 				// for (OutPersonDrink out : drinkList) {
 				// Log.e("error",
 				// "booze " + out.getBoozeType() + ", "

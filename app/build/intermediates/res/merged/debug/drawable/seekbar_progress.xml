@@ -6,4 +6,4 @@
         android:id="@+android:id/progress"
         android:drawable="@drawable/seek_bar"/>
 
-</layer-list><!-- From: file:/D:/AndroidStudio/LOCO/app/src/main/res/drawable/seekbar_progress.xml -->
+</layer-list><!-- From: file:/C:/Users/Marre/StudioProjects/LocoV2/app/src/main/res/drawable/seekbar_progress.xml -->

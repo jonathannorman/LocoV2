@@ -9,7 +9,6 @@ public class OutPerson {
 	private String friendId;
 
 	public OutPerson() {
-
 	}
 
 	public OutPerson(String names, String bac, String latitude,
