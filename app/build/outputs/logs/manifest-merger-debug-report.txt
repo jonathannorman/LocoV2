@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:2:1-104:12
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:2:1-98:12
 	package
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:3:5-26
 		INJECTED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml
@@ -77,7 +77,7 @@ ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:26:5-71
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:26:22-69
 application
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:28:5-102:19
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:28:5-96:19
 MERGED from [com.android.support:support-v4:22.2.0] D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:21.0.0] D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:22.2.0] D:\AndroidStudio\LOCO\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
@@ -97,9 +97,9 @@ MERGED from [com.android.support:support-v4:22.2.0] D:\AndroidStudio\LOCO\app\bu
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:29:9-43
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:34:9-36:46
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:34:9-36:48
 	android:value
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:36:13-46
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:35:13-58
 meta-data#com.google.android.gms.version
@@ -166,46 +166,46 @@ ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:66:9-69:62
 	android:name
 		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:67:13-49
 activity#se.loco.app.Settings
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:75:9-77:52
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:70:9-72:52
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:77:13-49
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:72:13-49
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:76:13-48
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:71:13-48
 activity#se.loco.app.MainActivity
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:78:9-81:62
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:73:9-76:62
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:75:13-49
 	android:theme
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:81:13-60
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:76:13-60
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:79:13-52
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:74:13-52
 activity#se.loco.app.MyDrinkListActivity
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:82:9-85:62
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:77:9-80:62
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:79:13-49
 	android:theme
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:85:13-60
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:80:13-60
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:83:13-59
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:78:13-59
 service#utils.UpdateUserLocationService
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:87:9-90:19
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:81:9-84:19
 	android:exported
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:89:13-37
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:88:13-59
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:82:13-59
 receiver#utils.AlarmManagerBroadcastReceiver
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:92:9-93:20
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:86:9-87:20
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:92:19-69
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:86:19-69
 service#utils.BackToHomeService
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:95:9-98:19
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:89:9-92:19
 	android:exported
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:97:13-37
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:96:13-51
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:90:13-51
 receiver#utils.BackToHomeAlarmManagerBroadcastReceiver
-ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:100:9-101:20
+ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:94:9-95:20
 	android:name
-		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:100:19-79
+		ADDED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:94:19-79
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:2:1-104:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\AndroidStudio\LOCO\app\src\main\AndroidManifest.xml:2:1-98:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE

@@ -319,6 +319,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <!-- From: file:/D:/AndroidStudio/LOCO/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="fb_app_id">1607677522802822</string>
     <string name="google_app_id">AIzaSyCsT1eUsefXC0f5QtLhFllV79zcSByctYQ</string>
     <string name="hello_world">Hello world!</string>
     <string name="home">Home</string>
